@@ -29,8 +29,8 @@ npm -v
 Clone your server repository (substitute its actual GitHub URL):
 
 ```bash
-git clone <YOUR-REPOSITORY-URL>
-cd <YOUR-REPOSITORY-DIRECTORY>
+git clone https://github.com/jestingly/JServer0.1
+cd https://github.com/jestingly/JServer0.1
 ```
 
 Install dependencies:
