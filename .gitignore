@@ -1,0 +1,32 @@
+# -----------------------------------------
+# JEST® WebSocket Server — Git exclusions
+# -----------------------------------------
+
+# Misc files that need disregarded.
+#README.md
+client.html
+terminal_commands.txt
+
+# Dependencies are installed locally using npm.
+node_modules/
+
+# Local environment configuration and secrets.
+.env
+.env.*
+!.env.example
+
+# Runtime logs and temporary files.
+*.log
+npm-debug.log*
+*.tmp
+
+# macOS metadata and archive artifacts.
+.DS_Store
+.AppleDouble
+.LSOverride
+__MACOSX/
+._*
+
+# Editor-specific local configuration.
+.vscode/
+.idea/
